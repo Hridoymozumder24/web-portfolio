@@ -1,5 +1,5 @@
 body{
-          
+          margin :0;
           font-family: 'Montserrat', sans-serif;    
 }
 h1{
@@ -12,10 +12,29 @@ h1{
 }
 .half-width{
      width:40%;
-     float:left;
+     float: left;
      margin-left:5%;
      padding-left:2%
 }
 .half-width img{
      width:100%;
 }
+.top-banner{
+     background-image:url("top-banner.png");
+      background-repeat: no-repeat;
+     
+     
+     
+}
+section{
+     height:100px;
+     
+}
+.link-button{
+     text-decoration:none;
+     background-color:orange;
+     padding:10px 20px;
+     border-radius:10px;
+     color:white;
+}
+
